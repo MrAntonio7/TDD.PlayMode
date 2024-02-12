@@ -14,7 +14,7 @@ public class ScriptTestMode1
     public void SetUp()
     {
         EditorSceneManager.LoadScene("SampleScene");
-        Debug.Log("Cargando la escena");
+        Debug.Log("Cargando la escena!!");
     }
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
     // `yield return null;` to skip a frame.
